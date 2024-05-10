@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Delight</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #F5F5F5;
+      }
+      body .top-head{
+        color: #603C27;
+      }
+      .content .nav {
+        display: flex;
+        justify-content: center;
+      }
+      .content .nav-primary {
+        padding: 1rem;
+        color: #ffffff;
+        background-color: #603c27;
+        font-weight: 600;
+        font-size: x-large;
+      }
+
+      .content .nav-secondary{
+        background-color: #825F42;
+      }
+      .content .nav-secondary ul{
+        display: flex;
+        justify-content: center;
+      }
+      .content .nav-secondary li{
+        list-style-type: none;
+        padding: .8rem;
+      }
+      .content .nav-secondary li:hover{
+        background-color: #A87F5E;
+      }
+      .content .nav-secondary ul li a{
+        text-decoration: none;
+        color: #ffffff;
+      }
+      .content .main .welcome{
+        margin: 1.5rem;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        padding:1rem;
+      }
+      .content .main .welcome p{
+        text-align: justify;
+      }
+      .specials div{
+        margin: .5rem;
+        padding: .2rem;
+      }
+
+      footer{
+        display: flex;
+        justify-content: center;
+        background-color: #603C27;
+        padding: 1rem;
+        color: #65615E;
+        font-size: smaller;
+      }
+      .spec * {
+        padding: .5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="content">
+      <nav class="nav nav-primary">
+        <h1>Café Delight</h1>
+      </nav>
+      <nav class="nav nav-secondary">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <section class="main">
+        <div class="welcome">
+            <h2 class="top-head">Welcome to Café Delight</h2>
+            <p>Experience the charm of our cozy café where every cup tells a story. Nestled in the heart of the city, Café Delight offers a relaxing ambiance perfect for unwinding or catching up with friends. Our warm and inviting atmosphere combined with the aroma of freshly brewed coffee creates a haven for coffee enthusiasts. Indulge in our handcrafted beverages made with premium coffee beans sourced from around the world. Whether you prefer a rich espresso, a creamy latte, or a refreshing iced coffee, our skilled baristas will craft the perfect drink to tantalize your taste buds. Join us for a delightful experience and discover why Café Delight is more than just a coffee shop – it's a place where memories are made, one sip at a time.</p>
+        </div>
+        <div class="specials welcome">
+            <h2 class="top-head">Today's Specials</h2>
+            <div class="spec specials-1">
+                <h3>Café Latte</h3>
+                <p>
+                    A classic favorite among coffee lovers, the café latte is a smooth and creamy espresso-based drink. It consists of a shot of espresso mixed with steamed milk, creating a perfect balance of rich espresso flavor and velvety milkiness. Topped with a thin layer of frothed milk for added indulgence, the café latte is the ideal choice for those seeking a comforting and satisfying coffee experience. 
+                </p>
+            </div>
+            <hr>
+            <div class="spec specials-2">
+                <h3>Cappuccion</h3>
+                <p>The cappuccino is a beloved Italian coffee beverage known for its luxurious texture and bold flavor. Crafted with equal parts espresso, steamed milk, and frothed milk, it boasts a velvety foam layer on top that adds a touch of elegance to each sip. With its robust espresso base and creamy foam, the cappuccino offers a harmonious blend of rich coffee flavor and airy lightness, making it a timeless classic enjoyed by coffee aficionados worldwide.
+                </p>
+            </div>
+            <hr>
+            <div class="spec specials-3">
+                <h3>Iced Mocha</h3>
+                <p>Perfect for warm days or as a refreshing treat any time of year, the iced mocha is a delightful combination of rich chocolate and smooth espresso flavors. Made by blending espresso with chocolate syrup or cocoa powder, then poured over ice and topped with cold milk, this indulgent beverage offers a satisfying balance of sweetness and bold coffee goodness. Finished with a dollop of whipped cream and a drizzle of chocolate sauce, the iced mocha is a decadent delight that will cool you down while satisfying your coffee cravings.</p>
+            </div>
+            <hr>
+
+        </div>
+      </section>
+      <footer>
+        <p>©️ 2024 Café Delight. All rights reserved.</p>
+      </footer>
+    </section>
+  </body>
+</html>
